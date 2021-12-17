@@ -5,12 +5,12 @@ region = var.region
 }
 
 module "vpc" {
-	source = ""
+	source = "../modules/"
 	project_id = var.project
 	routing_mode = "GLOBAL"
 }
 
 module "sbn1" {
-	source = ""
+	source = "../modules/"
 	network_name = "${module.vpc.newnet.id}"
 }
