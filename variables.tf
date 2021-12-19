@@ -1,9 +1,9 @@
-/*variable "project"{
+variable "project"{
  type = string
- default = "sample-project-a-333711"
+ default = "southern-splice-330005"
 }
 
 variable "region" {
  type = string
  default = "us-west1"
-}*/
+}
