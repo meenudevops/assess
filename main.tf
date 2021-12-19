@@ -6,6 +6,6 @@ region = var.region
 }
 
 module "newnet" {
-	source = "./modules"
+	source = "../modules"
 }
 
