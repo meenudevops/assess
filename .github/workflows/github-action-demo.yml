@@ -6,7 +6,7 @@ on:
 jobs:
   terraform:
     name: "Terraform Init"
-    runs-on: windows
+    runs-on: self-hosted
     steps:
       - name: "Terraform Initialization"
         uses: meenudevops/assess@master
