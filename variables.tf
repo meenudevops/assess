@@ -1,5 +1,5 @@
 variable "project"{
-    type = string
+    type    = string
     default = "southern-splice-330005"
 }
 
