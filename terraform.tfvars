@@ -1,4 +1,4 @@
 
-region = "us-west1"
+region = "us-central1"
 //name = "test"
   
