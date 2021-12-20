@@ -8,8 +8,6 @@ jobs:
     name: "Terraform Init"
     runs-on: windows
     steps:
-      - name: "Checkout"
-        uses:
       - name: "Terraform Initialization"
         uses: meenudevops/assess@master
         with:
