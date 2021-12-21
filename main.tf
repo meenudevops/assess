@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("C:/Users/meenu.m.nair/Downloads/southern-splice-330005-770f44521d19.json")
+  credentials = "C:/Users/meenu.m.nair/Downloads/southern-splice-330005-c06109f1c7f8.json"
   project     = var.project
   region      = var.region
 }
