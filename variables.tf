@@ -1,7 +1,6 @@
-variable "project" {
-  type    = string
-  default = "southern-splice-330005"
-}
-
+variable "project" {}
+variable "credentials" {}
 variable "region" {}
+
+
 
