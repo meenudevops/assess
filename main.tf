@@ -5,5 +5,5 @@ provider "google" {
 resource "google_storage_bucket" "my_bucket" {
   name          = "new-bucket1"
   location      = "US"
-  force_destroy = true
+  force_destroy = true 
 }
