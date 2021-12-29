@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket      = "new-bucket1"
+    bucket      = "newgcsbucket1"
     credentials = "southern-splice-330005-77c973808679.json"
     prefix      = "terraform/state"
   }
