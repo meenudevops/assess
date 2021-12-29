@@ -2,7 +2,7 @@ provider "google" {
   credentials = "southern-splice-330005-77c973808679.json"
   project     = "southern-splice-330005"
 }
-resource "google_storage_bucket" "my_sample_terra_bucket" {
+resource "google_storage_bucket" "mygcsbucket" {
   name          = "new-bucket1"
   location      = "US"
   force_destroy = true
