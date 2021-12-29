@@ -3,7 +3,7 @@ provider "google" {
   project     = "southern-splice-330005"
 }
 resource "google_storage_bucket" "mygcsbucket010" {
-  name          = "new-bucket1"
+  name          = "newgcsbucket1"
   location      = "US"
   force_destroy = true
 }
